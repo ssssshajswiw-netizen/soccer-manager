@@ -41,9 +41,10 @@ fun ScreenColumn(padding: PaddingValues, content: @Composable () -> Unit) {
             .fillMaxSize()
             .padding(padding)
             .verticalScroll(rememberScrollState())
-            .padding(horizontal = 20.dp, vertical = 18.dp),
-        content = content
-    )
+            .padding(horizontal = 20.dp, vertical = 18.dp)
+    ) {
+        content()
+    }
 }
 
 @Composable
@@ -75,9 +76,10 @@ fun SurfaceCard(modifier: Modifier = Modifier, content: @Composable () -> Unit) 
             .clip(RoundedCornerShape(16.dp))
             .background(SoccerPalette.card)
             .border(1.dp, SoccerPalette.divider, RoundedCornerShape(16.dp))
-            .padding(16.dp),
-        content = content
-    )
+            .padding(16.dp)
+    ) {
+        content()
+    }
 }
 
 @Composable
