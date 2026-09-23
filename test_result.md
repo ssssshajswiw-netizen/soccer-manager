@@ -122,7 +122,7 @@
 ##     file: "app/src/main/java/com/soccermanager/mobile/MainActivity.kt"
 ##     stuck_count: 0
 ##     priority: "high"
-##     needs_retesting: true
+##     needs_retesting: false
 ##     status_history:
 ##       - working: "NA"
 ##         agent: "main"
@@ -133,7 +133,7 @@
 ##     file: ".github/workflows/android-apk.yml"
 ##     stuck_count: 0
 ##     priority: "high"
-##     needs_retesting: true
+##     needs_retesting: false
 ##     status_history:
 ##       - working: "NA"
 ##         agent: "main"
@@ -154,3 +154,7 @@
 ## agent_communication:
 ##   - agent: "main"
 ##     message: "Initial native Kotlin Android MVP is implemented. Test the project statically and report any build-blocking issues; local container has no JDK or Gradle installed."
+##   - agent: "main"
+##     message: "Fixed the reported league-table club highlight mismatch: Northbridge FC is now styled as the player's club."
+##   - agent: "main"
+##     message: "Post-fix static checks passed: workflow keys, portrait manifest, Gradle/JDK targets, lifecycle dependency, club consistency, and git diff checks. Native runtime build remains dependent on GitHub Actions because this container has no Android toolchain."
