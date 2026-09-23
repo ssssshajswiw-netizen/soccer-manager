@@ -53,6 +53,6 @@ Build a simple, playable vertical soccer-manager-style Android game in native Ko
 
 ## Next tasks
 
-1. Push the repository to the user's `soccer-manager-mobile` GitHub repository.
-2. Trigger Actions and download `soccer-manager-debug-apk`.
+1. Open the `Build Android APK` workflow on the pushed `main` branch.
+2. Download `soccer-manager-debug-apk` from the successful Actions run.
 3. Test the first APK on Android and fix any device-specific UI issues.
