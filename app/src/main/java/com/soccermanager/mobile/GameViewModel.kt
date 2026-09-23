@@ -40,7 +40,7 @@ class GameViewModel : ViewModel() {
         selectedScreen = screen
     }
 
-    fun setTactic(value: Tactic) {
+    fun selectTactic(value: Tactic) {
         tactic = value
         possession = when (value) {
             Tactic.DEFENSIVE -> 47

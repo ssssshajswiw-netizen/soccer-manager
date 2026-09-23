@@ -34,7 +34,7 @@ fun SquadScreen(game: GameViewModel, padding: PaddingValues) {
         SectionLabel("Match plan")
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Tactic.entries.forEach { tactic ->
-                TacticOption(tactic, game.tactic == tactic) { game.setTactic(tactic) }
+                TacticOption(tactic, game.tactic == tactic) { game.selectTactic(tactic) }
             }
         }
         Spacer(Modifier.height(18.dp))
