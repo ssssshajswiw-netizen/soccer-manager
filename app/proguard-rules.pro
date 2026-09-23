@@ -1,0 +1,1 @@
+# Soccer Manager MVP keeps release shrinking disabled for a predictable first APK.
