@@ -34,6 +34,8 @@ dist
 
 *token.json*
 *credentials.json*
+backend/.env
+frontend/.env
 
 # Logs and debug files
 npm-debug.log*
@@ -80,3 +82,6 @@ memory/test_credentials.md
 
 # Mobile development
 android-sdk/
+.gradle/
+**/build/
+local.properties

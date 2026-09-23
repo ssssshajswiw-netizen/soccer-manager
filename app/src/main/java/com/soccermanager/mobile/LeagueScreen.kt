@@ -46,7 +46,7 @@ fun LeagueScreen(game: GameViewModel, padding: PaddingValues) {
 
 @Composable
 private fun LeagueRow(position: Int, team: LeagueTeam) {
-    val isUs = team.name == "Ashford Athletic"
+    val isUs = team.name == "Northbridge FC"
     Row(
         modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp),
         verticalAlignment = Alignment.CenterVertically

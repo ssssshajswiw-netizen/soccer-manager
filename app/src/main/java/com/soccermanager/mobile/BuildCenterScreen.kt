@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.CloudDownload
 import androidx.compose.material.icons.filled.Code
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -68,7 +67,7 @@ fun BuildCenterScreen(game: GameViewModel, padding: PaddingValues) {
                 modifier = Modifier.fillMaxWidth().height(50.dp),
                 colors = ButtonDefaults.buttonColors(containerColor = SoccerPalette.elevated)
             ) {
-                Icon(Icons.Default.CloudDownload, contentDescription = null, tint = SoccerPalette.text)
+                Icon(Icons.Default.ArrowBack, contentDescription = null, tint = SoccerPalette.text)
                 Spacer(Modifier.width(8.dp))
                 Text("Back to club", color = Color.White, fontWeight = FontWeight.Bold)
             }

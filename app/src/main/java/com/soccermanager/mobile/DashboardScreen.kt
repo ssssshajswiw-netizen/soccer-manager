@@ -41,7 +41,7 @@ fun DashboardScreen(game: GameViewModel, padding: PaddingValues) {
         }
         Spacer(Modifier.height(18.dp))
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            SurfaceCard(Modifier.weight(1f)) { StatBlock("3rd", "League position") }
+            SurfaceCard(Modifier.weight(1f)) { StatBlock("1st", "League position") }
             SurfaceCard(Modifier.weight(1f)) { StatBlock("19", "Points") }
             SurfaceCard(Modifier.weight(1f)) { StatBlock("+8", "Goal diff") }
         }
